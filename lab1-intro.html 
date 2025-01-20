@@ -8,14 +8,13 @@
   <body>
     <h1>Welcome to My First HTML Page!</h1>
     
-    <p>Hi, my name is Gabi, and I am an international student from Brazil. I am currently studying IT Business Solution at TRI-C</p>
-    
-  
-    <p><strong>I moved to Cleveland 3 years ago and I love living here!</strong></p>
+    <p>Hi, my name is Gabi, and I am an international student from Brazil. I am currently studying <strong>IT Business Solutions</strong> at TRI-C.</p>
+     <p><strong>I moved to Cleveland 3 years ago and I love living here!</strong></p>
+
+    <p>I am really excited to be learning web development and programming. It’s  fun to see how websites come to life through coding.</p>
     
     <a href="https://www.tri-c.edu/IT" target="_blank">Visit the Tri-C IT homepage</a>
 
     <img src="https://www.dreamstime.com/stock-photo-downtown-cleveland-skyline-oh-august-lakefront-ohio-usa-image82499691" alt="Downtown Cleveland Skyline">
   </body>
 </html>
-
