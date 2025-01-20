@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+  </head>
+  <body>
+    <h1>Welcome to My First HTML Page!</h1>
+    
+    <p>Hi, my name is Gabi, and I am an international student from Brazil. I am currently studying IT Business Solution at TRI-C</p>
+    
+  
+    <p><strong>I moved to Cleveland 3 years ago and I love living here!</strong></p>
+    
+    <a href="https://www.tri-c.edu/IT" target="_blank">Visit the Tri-C IT homepage</a>
+
+    <img src="https://www.dreamstime.com/stock-photo-downtown-cleveland-skyline-oh-august-lakefront-ohio-usa-image82499691" alt="Downtown Cleveland Skyline">
+  </body>
+</html>
+
