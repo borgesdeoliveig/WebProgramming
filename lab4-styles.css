@@ -1,0 +1,44 @@
+/* Global Styles */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Set font family to Arial */
+}
+
+/* Header Styling */
+h1 {
+    color: #3498db; /* Blue color */
+    text-align: center; /* Center-align the text */
+}
+
+/* Paragraph Styling */
+p {
+    color: #555; /* Gray color for paragraphs */
+    padding: 10px; /* Add 10px padding around each paragraph */
+}
+
+/* List Styling */
+ul {
+    list-style-type: square; /* Change bullet points to squares */
+}
+
+li {
+    color: #2ecc71; /* Green color for list items */
+}
+
+/* Link Styling */
+a {
+    color: blue; /* Set link color to blue */
+    text-decoration: none; /* Remove underline by default */
+}
+
+a:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Box Styling */
+.styled-box {
+    border: 2px solid #3498db; /* Blue border around the box */
+    background-color: lightgray; /* Light gray background */
+    padding: 15px; /* Add 15px padding inside the box */
+    text-align: center; /* Center-align the text inside the box */
+}
