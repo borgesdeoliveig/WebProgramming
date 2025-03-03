@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Haven</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f1e1; /* Cream color for background */
+      color: #4f3c31; /* Dark brown text color */
+    }
+
+    /* Grid Layout for Page Structure */
+    body {
+      display: grid;
+      grid-template-rows: auto 50px 1fr auto;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer";
+    }
+
+    .header {
+      grid-area: header;
+      background-color: #6b4f3b; /* Coffee brown for header */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .nav {
+      grid-area: nav;
+      background-color: #d1b7a1; /* Light brown for navigation */
+      padding: 10px;
+    }
+
+    .nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .nav li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    .nav a {
+      color: #4f3c31; /* Dark brown text */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav a:hover {
+      color: #6b4f3b; /* Darker brown on hover */
+    }
+
+    .main-content {
+      grid-area: main;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .footer {
+      grid-area: footer;
+      background-color: #6b4f3b; /* Coffee brown for footer */
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Flexbox for Featured Coffees */
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .flex-item {
+      background-color: #f9e4c1; /* Light cream for coffee items */
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .flex-item:hover {
+      background-color: #e8d3b5; /* Slightly darker cream on hover */
+      cursor: pointer;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "header"
+          "nav"
+          "main"
+          "footer";
+      }
+
+      .flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flex-item {
+        width: 80%;
+        margin-bottom: 15px;
+      }
+
+      .nav ul {
+        text-align: left;
+      }
+
+      .nav li {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Java Haven</h1>
+    <p>Your daily dose of caffeine and comfort.</p>
+  </header>
+  
+  <nav class="nav">
+    <ul>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main class="main-content">
+    <h2>Featured Coffees</h2>
+    <div class="flex-container">
+      <div class="flex-item">Espresso</div>
+      <div class="flex-item">Cappuccino</div>
+      <div class="flex-item">Latte</div>
+      <div class="flex-item">Mocha</div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <p>&copy; 2025 Java Haven. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
